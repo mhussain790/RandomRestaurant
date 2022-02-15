@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+<h2>Search for a Restaurant&nbsp;</h1>
+    <p>&nbsp;</p>
+
+    <form>
+        <h5>Select the following filters to get the most accurate results:</h5>
+        <h6 style="color:gray">* indicates a required field</h6>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Filter 1</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="test">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Food Types</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Steak</option>
+            <option>Seafood</option>
+            <option>Vegan</option>
+            <option>Vegetarian</option>
+            <option>Halal</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">Distance (Miles)*</label>
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Test</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="test"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+{% endblock %}
