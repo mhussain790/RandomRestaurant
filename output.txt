@@ -1,0 +1,3 @@
+                 High  Low        Open      Close    Volume  Adj Close
+Date                                                                  
+2022-02-24  802.47998  700  700.390015  800.77002  44876700  800.77002
